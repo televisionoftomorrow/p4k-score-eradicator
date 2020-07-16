@@ -1,0 +1,11 @@
+{
+   "name": "Pitchfork Score Eradicator",
+   "version": "1.0",
+   "description": "Removes score from review pages on Pitchfork, The Most Trusted Voice in Music.",
+   "manifest_version": 2,
+
+   "content_scripts": [{
+     "js": ["content.js"],
+     "matches": ["https://pitchfork.com/reviews/*"]
+    }]
+ }
